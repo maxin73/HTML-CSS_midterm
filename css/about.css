@@ -1,0 +1,49 @@
+/* ABOUT US */
+.about {
+  background: linear-gradient(rgba(249, 194, 235, 0.5), rgba(168, 194, 238, 0.5)),url("https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 100px auto 100px auto;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 225px 0;
+  color: rgb(245, 241, 237);
+  font-family:'Abril Fatface', cursive;
+  font-size: 65px;
+  letter-spacing: 0.2em;
+}
+
+.about-contents h2 {
+  font-size: 40px;
+  color: #183a37b8;
+  text-align: left;
+  padding:0 250px 40px 250px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.about-contents p {
+  color: #183a37b8;
+  padding: 0 250px;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+@media screen and (max-width: 900px){
+  .about h2 {
+    font-size: 30px;
+    padding: 125px 50px;
+    height: 250px;
+  }
+  .about-contents h2 {
+    font-size: 25px;
+    padding: 0 50px;
+  }
+  .about-contents p {
+    font-size: 15px;
+    padding: 30px 50px;
+  }
+}
