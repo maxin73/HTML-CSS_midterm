@@ -1,0 +1,328 @@
+body {
+  background-color: #EFD6AC;
+}
+
+/* NAV */
+.navbar-brand h1 {
+  font-family:'Comfortaa', cursive;
+}
+
+/* TOP */
+#top{
+  background-image: url("https://images.unsplash.com/photo-1545048702-79362596cdc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  max-width: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 550px;
+  margin: 64px 0 80px 0;
+}
+
+#top h1{
+  text-align: center;
+  padding: 170px 0 30px 0;
+  color: rgb(245, 241, 237);
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#top p {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(245, 241, 237);
+  font-family: 'Abril Fatface', cursive;
+}
+
+.container-sm {
+  margin: 0 50px;
+}
+
+
+/* NEWS */
+.news-top {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Diplomata SC', cursive;
+}
+@media screen and (max-width: 768px) {
+  .news-top {
+    padding: 20px;
+  }
+  .news-top h2 {
+    font-size: 18px;
+  }
+}
+
+.news {
+  margin: 20px 0;
+  color: #183a37b8;
+  font-family:'Comfortaa', cursive;
+}
+
+.news1 {
+  background-image: url("https://images.unsplash.com/photo-1602312771175-0a4f1f0f6214?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 200px
+}
+
+.news2 {
+  background-image: url("https://images.unsplash.com/photo-1587306433556-18d035a3ed97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 200px
+}
+
+.news3 {
+  background-image: url("https://images.unsplash.com/photo-1510267222691-b90c3f0494d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 200px
+}
+
+.button a {
+  background: #eee;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #183a37b8;;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  z-index:0;
+}
+.button a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  display: block;
+  background: #aeaeae;
+  transition: .3s;
+  left:0;
+}
+.button a:hover {
+  color: #FFF;
+}
+.button a:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+
+/* ABOUT US */
+.about {
+  background: linear-gradient(rgba(249, 194, 235, 0.5), rgba(168, 194, 238, 0.5)),url("https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin: 120px auto 100px auto;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 225px 0;
+  color: rgb(245, 241, 237);
+  font-family:'Abril Fatface', cursive;
+  font-size: 65px;
+  letter-spacing: 0.2em;
+}
+@media screen and (max-width: 768px) {
+  .about h2 {
+    font-size: 30px;
+    padding: 125px 50px;
+    height: 250px;
+  }
+}
+
+.about-contents h2 {
+  font-size: 40px;
+  color: #183a37b8;
+  text-align: left;
+  padding:0 250px 40px 250px;
+  font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 768px) {
+  .about-contents h2 {
+    font-size: 25px;
+    padding: 0 50px;
+  }
+}
+
+
+.about-contents p {
+  color: #183a37b8;
+  padding: 0 250px;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 768px) {
+  .about-contents p {
+    font-size: 15px;
+    padding: 30px 50px;
+  }
+}
+
+/* CONTACT FORM */
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 130px 0 50px 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+
+.Form-bg {
+  background-color: gray;
+  height: 750px;
+  width:80%;
+  padding: 75px 0 0 0;
+  margin: 0 0 30px 0;
+  font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 768px) {
+  .Form-bg {
+    height: 820px;
+  }
+}
+
+.Form-Item {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+.Form-bg h2 {
+  padding: 0 0 20px 0;
+  color: white;
+}
+
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 35px;
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 12px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .Form-Item-Textarea {
+    margin-top: 12px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 180px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #C44900;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background: #C44900;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
